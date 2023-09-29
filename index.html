@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/output.css">
+    <title>Advice Generator</title>
+</head>
+
+<body class="font-manrope bg-dark-grayish-blue">
+    <div class="container bg-dark-blue mx-auto my-36 rounded-lg p-6 m-10 text-center relative w-2/3 md:w-1/2">
+        <h3 class="text-primary-green text-xs tracking-widest sm:text-base">Advice #<span id="number">--</span></h3>
+        <h2 id="quote" class="text-lg text-primary-cyan mt-3 leading-tight sm:leading-normal sm:text-2xl">CLICK THE DICE 👇</h2>
+        <div>
+            <img src="src/img/pattern-divider-mobile.svg" alt="pattern" class="block mx-auto my-4 sm:hidden">
+            <img src="src/img/pattern-divider-desktop.svg" alt="pattern" class="hidden mx-auto my-4 sm:block">
+        </div>
+        <div class="dice inline-block bg-primary-green p-3 rounded-full absolute -bottom-8 -translate-x-[1.51rem] group cursor-pointer">
+            <img src="src/img/icon-dice.svg" alt="dice" class="group-hover:rotate-90 transition duration-500">
+        </div>
+    </div>
+
+    <script src="src/script.js"></script>
+</body>
+
+</html>

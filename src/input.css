@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dice:hover {
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+    @apply transition duration-500 ease-in-out;
+}
